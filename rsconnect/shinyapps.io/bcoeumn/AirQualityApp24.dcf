@@ -1,0 +1,13 @@
+name: AirQualityApp24
+title: AirQualityApp24
+username: bcoeumn
+account: bcoeumn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11484753
+bundleId: 8639603
+url: https://bcoeumn.shinyapps.io/AirQualityApp24/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CopyOfapp3-29.R|CopyOfhelper3-29.R|dataupdate2024.R|extraCode.R|2024 Data Update

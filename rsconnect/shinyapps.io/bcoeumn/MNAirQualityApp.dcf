@@ -1,0 +1,12 @@
+name: MNAirQualityApp
+title: MNAirQualityApp
+username:
+account: bcoeumn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6810846
+bundleId: 8639566
+url: https://bcoeumn.shinyapps.io/MNAirQualityApp/
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: CopyOfapp3-29.R|CopyOfhelper3-29.R|dataupdate2024.R|extraCode.R|2024 Data Update
