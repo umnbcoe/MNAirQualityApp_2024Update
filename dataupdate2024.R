@@ -28,6 +28,18 @@ library(lubridate)
 #Used for daily in the dataCleaning.R #
 #Used for the Holiday tab #
 
+#####################                   How to find the new data to update the application                              #####################
+# Data needed to update the weather tab of the application can be found here: https://www.dnr.state.mn.us/climate/twin_cities/listings.html #
+# Do 2022-present link and downloaded the csv.  Will need to manipulate the data to match current columns as seen in later code             #
+# The Specific 5 site options that need to be updated can be found on the app.R tab or viewed from the ui on that tab                       #
+#                                                                                                                                           #
+# Data for the 2020_PM2.5, 2021_PM2.5, etc. can be found at: epa.gov/outdoor-air-quality-data/download-daily-data                           #
+# Select PM2.5, year of choice, Minnesota, then download by clicking the get data button                                                    #
+#                                                                                                                                           #
+# Census data will need to be updated for the human impact tab. That can be found here:                                                     #
+# https://www.census.gov/library/stories/state-by-state/minnesota-population-change-between-census-decade.html                              #
+#############################################################################################################################################
+
 #New datasets that need to be manipulated so they can be added to current datasets#
 `2022_PM2.5_Raw` <- read.csv("~Anne/BCOE/AirQualityApp/2022_PM2.5_Raw.csv")
 `2023_PM2.5_Raw` <- read.csv("~Anne/BCOE/AirQualityApp/2023_PM2.5_Raw.csv")
